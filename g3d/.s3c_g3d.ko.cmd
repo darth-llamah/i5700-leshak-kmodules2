@@ -1,0 +1,1 @@
+cmd_/home/matus/i5700/FrankenKernel/kmodules2/g3d/s3c_g3d.ko := /opt/ctng/bin/arm-spica-linux-uclibcgnueabi-ld -EL -r   -o /home/matus/i5700/FrankenKernel/kmodules2/g3d/s3c_g3d.ko /home/matus/i5700/FrankenKernel/kmodules2/g3d/s3c_g3d.o /home/matus/i5700/FrankenKernel/kmodules2/g3d/s3c_g3d.mod.o

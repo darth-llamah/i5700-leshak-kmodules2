@@ -1,0 +1,1 @@
+cmd_/home/matus/i5700/FrankenKernel/kmodules2/cmm/s3c_cmm.o := /opt/ctng/bin/arm-spica-linux-uclibcgnueabi-ld -EL    -r -o /home/matus/i5700/FrankenKernel/kmodules2/cmm/s3c_cmm.o /home/matus/i5700/FrankenKernel/kmodules2/cmm/LogMsg.o /home/matus/i5700/FrankenKernel/kmodules2/cmm/CMMMisc.o /home/matus/i5700/FrankenKernel/kmodules2/cmm/s3c-cmm.o 

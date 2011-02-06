@@ -1,0 +1,1 @@
+cmd_/home/matus/i5700/FrankenKernel/kmodules2/dpram/dpram.ko := /opt/ctng/bin/arm-spica-linux-uclibcgnueabi-ld -EL -r   -o /home/matus/i5700/FrankenKernel/kmodules2/dpram/dpram.ko /home/matus/i5700/FrankenKernel/kmodules2/dpram/dpram.o /home/matus/i5700/FrankenKernel/kmodules2/dpram/dpram.mod.o

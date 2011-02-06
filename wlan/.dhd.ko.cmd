@@ -1,0 +1,1 @@
+cmd_/home/matus/i5700/FrankenKernel/kmodules2/wlan/dhd.ko := /opt/ctng/bin/arm-spica-linux-uclibcgnueabi-ld -EL -r   -o /home/matus/i5700/FrankenKernel/kmodules2/wlan/dhd.ko /home/matus/i5700/FrankenKernel/kmodules2/wlan/dhd.o /home/matus/i5700/FrankenKernel/kmodules2/wlan/dhd.mod.o

@@ -1,0 +1,1 @@
+cmd_/home/matus/i5700/FrankenKernel/kmodules2/vibetonz/vibrator.ko := /opt/ctng/bin/arm-spica-linux-uclibcgnueabi-ld -EL -r   -o /home/matus/i5700/FrankenKernel/kmodules2/vibetonz/vibrator.ko /home/matus/i5700/FrankenKernel/kmodules2/vibetonz/vibrator.o /home/matus/i5700/FrankenKernel/kmodules2/vibetonz/vibrator.mod.o

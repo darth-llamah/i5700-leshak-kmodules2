@@ -1,0 +1,1 @@
+cmd_/home/matus/i5700/FrankenKernel/kmodules2/rotator/s3c_rotator.ko := /opt/ctng/bin/arm-spica-linux-uclibcgnueabi-ld -EL -r   -o /home/matus/i5700/FrankenKernel/kmodules2/rotator/s3c_rotator.ko /home/matus/i5700/FrankenKernel/kmodules2/rotator/s3c_rotator.o /home/matus/i5700/FrankenKernel/kmodules2/rotator/s3c_rotator.mod.o
