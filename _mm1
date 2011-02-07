@@ -1,4 +1,4 @@
 #!/bin/sh
 
-make KDIR=/home/matus/i5700/FrankenKernel/kernel CFLAGS=-O3
+make KDIR=/home/matus/i5700/QBANIN_kernel/QBANIN_kernel CFLAGS=-O3
 cp *.ko /home/matus/i5700/spica_initramfs/lib/modules

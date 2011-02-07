@@ -1,12 +1,11 @@
-cmd_/home/matus/i5700/FrankenKernel/kmodules2/wlan/src/bcmsdio/sys/wlgpio.o := /opt/ctng/bin/arm-spica-linux-uclibcgnueabi-gcc -Wp,-MD,/home/matus/i5700/FrankenKernel/kmodules2/wlan/src/bcmsdio/sys/.wlgpio.o.d  -nostdinc -isystem /opt/ctng/lib/gcc/arm-spica-linux-uclibcgnueabi/4.3.4/include -Iinclude  -I/home/matus/i5700/FrankenKernel/kernel/arch/arm/include -include include/linux/autoconf.h -D__KERNEL__ -mlittle-endian -Iarch/arm/mach-s3c6400/include -Iarch/arm/mach-s3c6410/include -Iarch/arm/plat-s3c64xx/include -Iarch/arm/plat-s3c/include -Wall -Wundef -Wstrict-prototypes -Wno-trigraphs -fno-strict-aliasing -fno-common -Werror-implicit-function-declaration -O2 -marm -fno-omit-frame-pointer -mapcs -mno-sched-prolog -mabi=aapcs-linux -mno-thumb-interwork -D__LINUX_ARM_ARCH__=6 -march=armv6k -mtune=arm1136j-s -msoft-float -Uarm -fno-stack-protector -I/modules/include -fno-omit-frame-pointer -fno-optimize-sibling-calls -Wdeclaration-after-statement -Wno-pointer-sign -fwrapv -I/include -I/home/matus/i5700/FrankenKernel/kernel -DBCMDBG -DBCMDBG_MEM -Dlinux -DLINUX -DBDC -DTOE -DBCMDRIVER -DBCMDONGLEHOST -DDHDTHREAD -DBCMWPA2 -DUSE_STOCK_MMC_DRIVER -DDHD_GPL -DDHD_SCHED -DBCMSDIO -DDHD_GPL -DBCMLXSDMMC -DBCMPLATFORM_BUS -DDHD_BCMEVENTS -DSHOW_EVENTS -DDHD_DEBUG -DSRCBASE=\"/home/matus/i5700/FrankenKernel/kmodules2/wlan/src\" -DANDROID_SPECIFIC -DMAX_HDR_LEN=64 -DDHD_FIRSTREAD=64 -DSDIO_ISR_THREAD -DENABLE_DEEP_SLEEP -DWRITE_MACADDR -DCONFIG_BRCM_GPIO_INTR -DBCM_HOSTWAKE -DBCMHOSTWAKE_IRQ -DBCM_PKTFILTER -DBCM_ARPO -DSOFTAP -I/home/matus/i5700/FrankenKernel/kmodules2/wlan/src/include/ -I/home/matus/i5700/FrankenKernel/kmodules2/wlan/src/dhd/sys/ -I/home/matus/i5700/FrankenKernel/kmodules2/wlan/src/dongle/ -I/home/matus/i5700/FrankenKernel/kmodules2/wlan/src/bcmsdio/sys/ -I/home/matus/i5700/FrankenKernel/kmodules2/wlan/src/wl/sys/ -I/home/matus/i5700/FrankenKernel/kmodules2/wlan/src/shared/ -DMODULE -marm -mtune=arm1136j-s -D"KBUILD_STR(s)=\#s" -D"KBUILD_BASENAME=KBUILD_STR(wlgpio)"  -D"KBUILD_MODNAME=KBUILD_STR(dhd)"  -c -o /home/matus/i5700/FrankenKernel/kmodules2/wlan/src/bcmsdio/sys/wlgpio.o /home/matus/i5700/FrankenKernel/kmodules2/wlan/src/bcmsdio/sys/wlgpio.c
+cmd_/home/matus/i5700/kmodules2/wlan/src/bcmsdio/sys/wlgpio.o := /opt/ctng/bin/arm-spica-linux-uclibcgnueabi-gcc -Wp,-MD,/home/matus/i5700/kmodules2/wlan/src/bcmsdio/sys/.wlgpio.o.d  -nostdinc -isystem /opt/ctng/lib/gcc/arm-spica-linux-uclibcgnueabi/4.3.4/include -Iinclude  -I/home/matus/i5700/QBANIN_kernel/QBANIN_kernel/arch/arm/include -include include/linux/autoconf.h -D__KERNEL__ -mlittle-endian -Iarch/arm/mach-s3c6400/include -Iarch/arm/mach-s3c6410/include -Iarch/arm/plat-s3c64xx/include -Iarch/arm/plat-s3c/include -Wall -Wundef -Wstrict-prototypes -Wno-trigraphs -fno-strict-aliasing -fno-common -Werror-implicit-function-declaration -O2 -marm -fno-omit-frame-pointer -mapcs -mno-sched-prolog -mabi=aapcs-linux -mno-thumb-interwork -D__LINUX_ARM_ARCH__=6 -march=armv6k -mtune=arm1136j-s -msoft-float -Uarm -fno-stack-protector -I/modules/include -fno-omit-frame-pointer -fno-optimize-sibling-calls -Wdeclaration-after-statement -Wno-pointer-sign -fwrapv -I/include -I/home/matus/i5700/QBANIN_kernel/QBANIN_kernel -DBCMDBG -DBCMDBG_MEM -Dlinux -DLINUX -DBDC -DTOE -DBCMDRIVER -DBCMDONGLEHOST -DDHDTHREAD -DBCMWPA2 -DUSE_STOCK_MMC_DRIVER -DDHD_GPL -DDHD_SCHED -DBCMSDIO -DDHD_GPL -DBCMLXSDMMC -DBCMPLATFORM_BUS -DDHD_BCMEVENTS -DSHOW_EVENTS -DDHD_DEBUG -DSRCBASE=\"/home/matus/i5700/kmodules2/wlan/src\" -DANDROID_SPECIFIC -DMAX_HDR_LEN=64 -DDHD_FIRSTREAD=64 -DSDIO_ISR_THREAD -DENABLE_DEEP_SLEEP -DWRITE_MACADDR -DCONFIG_BRCM_GPIO_INTR -DBCM_HOSTWAKE -DBCMHOSTWAKE_IRQ -DBCM_PKTFILTER -DBCM_ARPO -I/home/matus/i5700/kmodules2/wlan/src/include/ -I/home/matus/i5700/kmodules2/wlan/src/dhd/sys/ -I/home/matus/i5700/kmodules2/wlan/src/dongle/ -I/home/matus/i5700/kmodules2/wlan/src/bcmsdio/sys/ -I/home/matus/i5700/kmodules2/wlan/src/wl/sys/ -I/home/matus/i5700/kmodules2/wlan/src/shared/ -DMODULE -marm -mtune=arm1136j-s -D"KBUILD_STR(s)=\#s" -D"KBUILD_BASENAME=KBUILD_STR(wlgpio)"  -D"KBUILD_MODNAME=KBUILD_STR(dhd)"  -c -o /home/matus/i5700/kmodules2/wlan/src/bcmsdio/sys/wlgpio.o /home/matus/i5700/kmodules2/wlan/src/bcmsdio/sys/wlgpio.c
 
-deps_/home/matus/i5700/FrankenKernel/kmodules2/wlan/src/bcmsdio/sys/wlgpio.o := \
-  /home/matus/i5700/FrankenKernel/kmodules2/wlan/src/bcmsdio/sys/wlgpio.c \
+deps_/home/matus/i5700/kmodules2/wlan/src/bcmsdio/sys/wlgpio.o := \
+  /home/matus/i5700/kmodules2/wlan/src/bcmsdio/sys/wlgpio.c \
     $(wildcard include/config/mach/spica.h) \
     $(wildcard include/config/mach/saturn.h) \
     $(wildcard include/config/mach/cygnus.h) \
     $(wildcard include/config/mach/instinctq.h) \
-    $(wildcard include/config/mach/infobowlq.h) \
     $(wildcard include/config/mach/bonanza.h) \
   include/linux/delay.h \
   include/linux/kernel.h \
@@ -29,23 +28,23 @@ deps_/home/matus/i5700/FrankenKernel/kmodules2/wlan/src/bcmsdio/sys/wlgpio.o := 
     $(wildcard include/config/arch/supports/optimized/inlining.h) \
     $(wildcard include/config/optimize/inlining.h) \
   include/linux/compiler-gcc4.h \
-  /home/matus/i5700/FrankenKernel/kernel/arch/arm/include/asm/linkage.h \
+  /home/matus/i5700/QBANIN_kernel/QBANIN_kernel/arch/arm/include/asm/linkage.h \
   include/linux/stddef.h \
   include/linux/types.h \
     $(wildcard include/config/uid16.h) \
     $(wildcard include/config/phys/addr/t/64bit.h) \
     $(wildcard include/config/64bit.h) \
   include/linux/posix_types.h \
-  /home/matus/i5700/FrankenKernel/kernel/arch/arm/include/asm/posix_types.h \
-  /home/matus/i5700/FrankenKernel/kernel/arch/arm/include/asm/types.h \
+  /home/matus/i5700/QBANIN_kernel/QBANIN_kernel/arch/arm/include/asm/posix_types.h \
+  /home/matus/i5700/QBANIN_kernel/QBANIN_kernel/arch/arm/include/asm/types.h \
   include/asm-generic/int-ll64.h \
   include/linux/bitops.h \
     $(wildcard include/config/generic/find/first/bit.h) \
     $(wildcard include/config/generic/find/last/bit.h) \
     $(wildcard include/config/generic/find/next/bit.h) \
-  /home/matus/i5700/FrankenKernel/kernel/arch/arm/include/asm/bitops.h \
+  /home/matus/i5700/QBANIN_kernel/QBANIN_kernel/arch/arm/include/asm/bitops.h \
     $(wildcard include/config/smp.h) \
-  /home/matus/i5700/FrankenKernel/kernel/arch/arm/include/asm/system.h \
+  /home/matus/i5700/QBANIN_kernel/QBANIN_kernel/arch/arm/include/asm/system.h \
     $(wildcard include/config/cpu/xsc3.h) \
     $(wildcard include/config/cpu/sa1100.h) \
     $(wildcard include/config/cpu/sa110.h) \
@@ -56,10 +55,10 @@ deps_/home/matus/i5700/FrankenKernel/kmodules2/wlan/src/bcmsdio/sys/wlgpio.o := 
     $(wildcard include/config/trace/irqflags/support.h) \
     $(wildcard include/config/x86.h) \
   include/linux/typecheck.h \
-  /home/matus/i5700/FrankenKernel/kernel/arch/arm/include/asm/irqflags.h \
-  /home/matus/i5700/FrankenKernel/kernel/arch/arm/include/asm/ptrace.h \
+  /home/matus/i5700/QBANIN_kernel/QBANIN_kernel/arch/arm/include/asm/irqflags.h \
+  /home/matus/i5700/QBANIN_kernel/QBANIN_kernel/arch/arm/include/asm/ptrace.h \
     $(wildcard include/config/arm/thumb.h) \
-  /home/matus/i5700/FrankenKernel/kernel/arch/arm/include/asm/hwcap.h \
+  /home/matus/i5700/QBANIN_kernel/QBANIN_kernel/arch/arm/include/asm/hwcap.h \
   include/asm-generic/cmpxchg-local.h \
   include/asm-generic/cmpxchg.h \
   include/asm-generic/bitops/non-atomic.h \
@@ -72,21 +71,21 @@ deps_/home/matus/i5700/FrankenKernel/kmodules2/wlan/src/bcmsdio/sys/wlgpio.o := 
     $(wildcard include/config/arch/has/ilog2/u64.h) \
   include/linux/ratelimit.h \
   include/linux/param.h \
-  /home/matus/i5700/FrankenKernel/kernel/arch/arm/include/asm/param.h \
+  /home/matus/i5700/QBANIN_kernel/QBANIN_kernel/arch/arm/include/asm/param.h \
     $(wildcard include/config/hz.h) \
   include/linux/dynamic_printk.h \
-  /home/matus/i5700/FrankenKernel/kernel/arch/arm/include/asm/byteorder.h \
+  /home/matus/i5700/QBANIN_kernel/QBANIN_kernel/arch/arm/include/asm/byteorder.h \
   include/linux/byteorder/little_endian.h \
   include/linux/swab.h \
-  /home/matus/i5700/FrankenKernel/kernel/arch/arm/include/asm/swab.h \
+  /home/matus/i5700/QBANIN_kernel/QBANIN_kernel/arch/arm/include/asm/swab.h \
   include/linux/byteorder/generic.h \
-  /home/matus/i5700/FrankenKernel/kernel/arch/arm/include/asm/bug.h \
+  /home/matus/i5700/QBANIN_kernel/QBANIN_kernel/arch/arm/include/asm/bug.h \
     $(wildcard include/config/bug.h) \
     $(wildcard include/config/debug/bugverbose.h) \
   include/asm-generic/bug.h \
     $(wildcard include/config/generic/bug.h) \
     $(wildcard include/config/generic/bug/relative/pointers.h) \
-  /home/matus/i5700/FrankenKernel/kernel/arch/arm/include/asm/delay.h \
+  /home/matus/i5700/QBANIN_kernel/QBANIN_kernel/arch/arm/include/asm/delay.h \
   arch/arm/mach-s3c6400/include/mach/gpio.h \
     $(wildcard include/config/s3c/gpio/space.h) \
   include/asm-generic/gpio.h \
@@ -94,7 +93,7 @@ deps_/home/matus/i5700/FrankenKernel/kmodules2/wlan/src/bcmsdio/sys/wlgpio.o := 
     $(wildcard include/config/gpio/sysfs.h) \
     $(wildcard include/config/have/gpio/lib.h) \
   include/linux/errno.h \
-  /home/matus/i5700/FrankenKernel/kernel/arch/arm/include/asm/errno.h \
+  /home/matus/i5700/QBANIN_kernel/QBANIN_kernel/arch/arm/include/asm/errno.h \
   include/asm-generic/errno.h \
   include/asm-generic/errno-base.h \
   arch/arm/plat-s3c64xx/include/plat/gpio-bank-a.h \
@@ -152,14 +151,14 @@ deps_/home/matus/i5700/FrankenKernel/kmodules2/wlan/src/bcmsdio/sys/wlgpio.o := 
     $(wildcard include/config/debug/list.h) \
   include/linux/poison.h \
   include/linux/prefetch.h \
-  /home/matus/i5700/FrankenKernel/kernel/arch/arm/include/asm/processor.h \
+  /home/matus/i5700/QBANIN_kernel/QBANIN_kernel/arch/arm/include/asm/processor.h \
     $(wildcard include/config/mmu.h) \
-  /home/matus/i5700/FrankenKernel/kernel/arch/arm/include/asm/cache.h \
+  /home/matus/i5700/QBANIN_kernel/QBANIN_kernel/arch/arm/include/asm/cache.h \
     $(wildcard include/config/arm/l1/cache/shift.h) \
     $(wildcard include/config/aeabi.h) \
   include/linux/sysfs.h \
     $(wildcard include/config/sysfs.h) \
-  /home/matus/i5700/FrankenKernel/kernel/arch/arm/include/asm/atomic.h \
+  /home/matus/i5700/QBANIN_kernel/QBANIN_kernel/arch/arm/include/asm/atomic.h \
   include/asm-generic/atomic.h \
   include/linux/spinlock.h \
     $(wildcard include/config/debug/spinlock.h) \
@@ -171,12 +170,12 @@ deps_/home/matus/i5700/FrankenKernel/kmodules2/wlan/src/bcmsdio/sys/wlgpio.o := 
     $(wildcard include/config/preempt/notifiers.h) \
   include/linux/thread_info.h \
     $(wildcard include/config/compat.h) \
-  /home/matus/i5700/FrankenKernel/kernel/arch/arm/include/asm/thread_info.h \
+  /home/matus/i5700/QBANIN_kernel/QBANIN_kernel/arch/arm/include/asm/thread_info.h \
     $(wildcard include/config/arm/thumbee.h) \
-  /home/matus/i5700/FrankenKernel/kernel/arch/arm/include/asm/fpstate.h \
+  /home/matus/i5700/QBANIN_kernel/QBANIN_kernel/arch/arm/include/asm/fpstate.h \
     $(wildcard include/config/vfpv3.h) \
     $(wildcard include/config/iwmmxt.h) \
-  /home/matus/i5700/FrankenKernel/kernel/arch/arm/include/asm/domain.h \
+  /home/matus/i5700/QBANIN_kernel/QBANIN_kernel/arch/arm/include/asm/domain.h \
     $(wildcard include/config/io/36.h) \
   include/linux/stringify.h \
   include/linux/bottom_half.h \
@@ -190,7 +189,7 @@ deps_/home/matus/i5700/FrankenKernel/kmodules2/wlan/src/bcmsdio/sys/wlgpio.o := 
   include/linux/spinlock_api_up.h \
   include/linux/kref.h \
   include/linux/wait.h \
-  /home/matus/i5700/FrankenKernel/kernel/arch/arm/include/asm/current.h \
+  /home/matus/i5700/QBANIN_kernel/QBANIN_kernel/arch/arm/include/asm/current.h \
   include/linux/klist.h \
   include/linux/module.h \
     $(wildcard include/config/modules.h) \
@@ -201,13 +200,13 @@ deps_/home/matus/i5700/FrankenKernel/kmodules2/wlan/src/bcmsdio/sys/wlgpio.o := 
     $(wildcard include/config/tracepoints.h) \
     $(wildcard include/config/module/unload.h) \
   include/linux/stat.h \
-  /home/matus/i5700/FrankenKernel/kernel/arch/arm/include/asm/stat.h \
+  /home/matus/i5700/QBANIN_kernel/QBANIN_kernel/arch/arm/include/asm/stat.h \
   include/linux/time.h \
   include/linux/cache.h \
     $(wildcard include/config/arch/has/cache/line/size.h) \
   include/linux/seqlock.h \
   include/linux/math64.h \
-  /home/matus/i5700/FrankenKernel/kernel/arch/arm/include/asm/div64.h \
+  /home/matus/i5700/QBANIN_kernel/QBANIN_kernel/arch/arm/include/asm/div64.h \
   include/linux/kmod.h \
   include/linux/gfp.h \
     $(wildcard include/config/zone/dma.h) \
@@ -239,19 +238,19 @@ deps_/home/matus/i5700/FrankenKernel/kmodules2/wlan/src/bcmsdio/sys/wlgpio.o := 
   include/linux/nodemask.h \
   include/linux/bitmap.h \
   include/linux/string.h \
-  /home/matus/i5700/FrankenKernel/kernel/arch/arm/include/asm/string.h \
+  /home/matus/i5700/QBANIN_kernel/QBANIN_kernel/arch/arm/include/asm/string.h \
   include/linux/pageblock-flags.h \
     $(wildcard include/config/hugetlb/page.h) \
     $(wildcard include/config/hugetlb/page/size/variable.h) \
   include/linux/bounds.h \
-  /home/matus/i5700/FrankenKernel/kernel/arch/arm/include/asm/page.h \
+  /home/matus/i5700/QBANIN_kernel/QBANIN_kernel/arch/arm/include/asm/page.h \
     $(wildcard include/config/cpu/copy/v3.h) \
     $(wildcard include/config/cpu/copy/v4wt.h) \
     $(wildcard include/config/cpu/copy/v4wb.h) \
     $(wildcard include/config/cpu/copy/feroceon.h) \
     $(wildcard include/config/cpu/xscale.h) \
     $(wildcard include/config/cpu/copy/v6.h) \
-  /home/matus/i5700/FrankenKernel/kernel/arch/arm/include/asm/glue.h \
+  /home/matus/i5700/QBANIN_kernel/QBANIN_kernel/arch/arm/include/asm/glue.h \
     $(wildcard include/config/cpu/arm610.h) \
     $(wildcard include/config/cpu/arm710.h) \
     $(wildcard include/config/cpu/abrt/lv4t.h) \
@@ -263,13 +262,13 @@ deps_/home/matus/i5700/FrankenKernel/kmodules2/wlan/src/bcmsdio/sys/wlgpio.o := 
     $(wildcard include/config/cpu/abrt/ev7.h) \
     $(wildcard include/config/cpu/pabrt/ifar.h) \
     $(wildcard include/config/cpu/pabrt/noifar.h) \
-  /home/matus/i5700/FrankenKernel/kernel/arch/arm/include/asm/memory.h \
+  /home/matus/i5700/QBANIN_kernel/QBANIN_kernel/arch/arm/include/asm/memory.h \
     $(wildcard include/config/page/offset.h) \
     $(wildcard include/config/dram/size.h) \
     $(wildcard include/config/dram/base.h) \
   include/linux/const.h \
   arch/arm/mach-s3c6400/include/mach/memory.h \
-  /home/matus/i5700/FrankenKernel/kernel/arch/arm/include/asm/sizes.h \
+  /home/matus/i5700/QBANIN_kernel/QBANIN_kernel/arch/arm/include/asm/sizes.h \
   include/asm-generic/memory_model.h \
     $(wildcard include/config/sparsemem/vmemmap.h) \
   include/asm-generic/page.h \
@@ -294,12 +293,12 @@ deps_/home/matus/i5700/FrankenKernel/kmodules2/wlan/src/bcmsdio/sys/wlgpio.o := 
     $(wildcard include/config/debug/per/cpu/maps.h) \
   include/linux/smp.h \
     $(wildcard include/config/use/generic/smp/helpers.h) \
-  /home/matus/i5700/FrankenKernel/kernel/arch/arm/include/asm/topology.h \
+  /home/matus/i5700/QBANIN_kernel/QBANIN_kernel/arch/arm/include/asm/topology.h \
   include/asm-generic/topology.h \
   include/linux/elf.h \
   include/linux/elf-em.h \
-  /home/matus/i5700/FrankenKernel/kernel/arch/arm/include/asm/elf.h \
-  /home/matus/i5700/FrankenKernel/kernel/arch/arm/include/asm/user.h \
+  /home/matus/i5700/QBANIN_kernel/QBANIN_kernel/arch/arm/include/asm/elf.h \
+  /home/matus/i5700/QBANIN_kernel/QBANIN_kernel/arch/arm/include/asm/user.h \
   include/linux/moduleparam.h \
     $(wildcard include/config/alpha.h) \
     $(wildcard include/config/ia64.h) \
@@ -319,19 +318,19 @@ deps_/home/matus/i5700/FrankenKernel/kmodules2/wlan/src/bcmsdio/sys/wlgpio.o := 
     $(wildcard include/config/debug/slab.h) \
   include/linux/slab_def.h \
   include/linux/kmalloc_sizes.h \
-  /home/matus/i5700/FrankenKernel/kernel/arch/arm/include/asm/percpu.h \
+  /home/matus/i5700/QBANIN_kernel/QBANIN_kernel/arch/arm/include/asm/percpu.h \
   include/asm-generic/percpu.h \
     $(wildcard include/config/have/setup/per/cpu/area.h) \
   include/linux/completion.h \
   include/linux/rcuclassic.h \
     $(wildcard include/config/rcu/cpu/stall/detector.h) \
-  /home/matus/i5700/FrankenKernel/kernel/arch/arm/include/asm/local.h \
+  /home/matus/i5700/QBANIN_kernel/QBANIN_kernel/arch/arm/include/asm/local.h \
   include/asm-generic/local.h \
-  /home/matus/i5700/FrankenKernel/kernel/arch/arm/include/asm/module.h \
+  /home/matus/i5700/QBANIN_kernel/QBANIN_kernel/arch/arm/include/asm/module.h \
   include/linux/pm.h \
     $(wildcard include/config/pm/sleep.h) \
   include/linux/semaphore.h \
-  /home/matus/i5700/FrankenKernel/kernel/arch/arm/include/asm/device.h \
+  /home/matus/i5700/QBANIN_kernel/QBANIN_kernel/arch/arm/include/asm/device.h \
     $(wildcard include/config/dmabounce.h) \
   include/linux/pm_wakeup.h \
     $(wildcard include/config/pm.h) \
@@ -355,8 +354,8 @@ deps_/home/matus/i5700/FrankenKernel/kmodules2/wlan/src/bcmsdio/sys/wlgpio.o := 
   include/linux/ftrace_irq.h \
     $(wildcard include/config/dynamic/ftrace.h) \
     $(wildcard include/config/function/graph/tracer.h) \
-  /home/matus/i5700/FrankenKernel/kernel/arch/arm/include/asm/hardirq.h \
-  /home/matus/i5700/FrankenKernel/kernel/arch/arm/include/asm/irq.h \
+  /home/matus/i5700/QBANIN_kernel/QBANIN_kernel/arch/arm/include/asm/hardirq.h \
+  /home/matus/i5700/QBANIN_kernel/QBANIN_kernel/arch/arm/include/asm/irq.h \
   arch/arm/mach-s3c6400/include/mach/irqs.h \
   arch/arm/plat-s3c64xx/include/plat/irqs.h \
   include/linux/irq_cpustat.h \
@@ -396,7 +395,7 @@ deps_/home/matus/i5700/FrankenKernel/kmodules2/wlan/src/bcmsdio/sys/wlgpio.o := 
   include/linux/capability.h \
     $(wildcard include/config/security/file/capabilities.h) \
   include/linux/timex.h \
-  /home/matus/i5700/FrankenKernel/kernel/arch/arm/include/asm/timex.h \
+  /home/matus/i5700/QBANIN_kernel/QBANIN_kernel/arch/arm/include/asm/timex.h \
   arch/arm/plat-s3c/include/mach/timex.h \
   include/linux/jiffies.h \
   include/linux/rbtree.h \
@@ -404,21 +403,21 @@ deps_/home/matus/i5700/FrankenKernel/kmodules2/wlan/src/bcmsdio/sys/wlgpio.o := 
     $(wildcard include/config/split/ptlock/cpus.h) \
     $(wildcard include/config/mmu/notifier.h) \
   include/linux/auxvec.h \
-  /home/matus/i5700/FrankenKernel/kernel/arch/arm/include/asm/auxvec.h \
+  /home/matus/i5700/QBANIN_kernel/QBANIN_kernel/arch/arm/include/asm/auxvec.h \
   include/linux/prio_tree.h \
-  /home/matus/i5700/FrankenKernel/kernel/arch/arm/include/asm/mmu.h \
+  /home/matus/i5700/QBANIN_kernel/QBANIN_kernel/arch/arm/include/asm/mmu.h \
     $(wildcard include/config/cpu/has/asid.h) \
-  /home/matus/i5700/FrankenKernel/kernel/arch/arm/include/asm/cputime.h \
+  /home/matus/i5700/QBANIN_kernel/QBANIN_kernel/arch/arm/include/asm/cputime.h \
   include/asm-generic/cputime.h \
   include/linux/sem.h \
   include/linux/ipc.h \
-  /home/matus/i5700/FrankenKernel/kernel/arch/arm/include/asm/ipcbuf.h \
-  /home/matus/i5700/FrankenKernel/kernel/arch/arm/include/asm/sembuf.h \
+  /home/matus/i5700/QBANIN_kernel/QBANIN_kernel/arch/arm/include/asm/ipcbuf.h \
+  /home/matus/i5700/QBANIN_kernel/QBANIN_kernel/arch/arm/include/asm/sembuf.h \
   include/linux/signal.h \
-  /home/matus/i5700/FrankenKernel/kernel/arch/arm/include/asm/signal.h \
+  /home/matus/i5700/QBANIN_kernel/QBANIN_kernel/arch/arm/include/asm/signal.h \
   include/asm-generic/signal.h \
-  /home/matus/i5700/FrankenKernel/kernel/arch/arm/include/asm/sigcontext.h \
-  /home/matus/i5700/FrankenKernel/kernel/arch/arm/include/asm/siginfo.h \
+  /home/matus/i5700/QBANIN_kernel/QBANIN_kernel/arch/arm/include/asm/sigcontext.h \
+  /home/matus/i5700/QBANIN_kernel/QBANIN_kernel/arch/arm/include/asm/siginfo.h \
   include/asm-generic/siginfo.h \
   include/linux/fs_struct.h \
   include/linux/path.h \
@@ -432,7 +431,7 @@ deps_/home/matus/i5700/FrankenKernel/kmodules2/wlan/src/bcmsdio/sys/wlgpio.o := 
   include/linux/plist.h \
     $(wildcard include/config/debug/pi/list.h) \
   include/linux/resource.h \
-  /home/matus/i5700/FrankenKernel/kernel/arch/arm/include/asm/resource.h \
+  /home/matus/i5700/QBANIN_kernel/QBANIN_kernel/arch/arm/include/asm/resource.h \
   include/asm-generic/resource.h \
   include/linux/timer.h \
     $(wildcard include/config/timer/stats.h) \
@@ -467,7 +466,7 @@ deps_/home/matus/i5700/FrankenKernel/kmodules2/wlan/src/bcmsdio/sys/wlgpio.o := 
     $(wildcard include/config/migration.h) \
   include/linux/limits.h \
   include/linux/ioctl.h \
-  /home/matus/i5700/FrankenKernel/kernel/arch/arm/include/asm/ioctl.h \
+  /home/matus/i5700/QBANIN_kernel/QBANIN_kernel/arch/arm/include/asm/ioctl.h \
   include/asm-generic/ioctl.h \
   include/linux/kdev_t.h \
   include/linux/dcache.h \
@@ -483,13 +482,13 @@ deps_/home/matus/i5700/FrankenKernel/kmodules2/wlan/src/bcmsdio/sys/wlgpio.o := 
   include/linux/nfs.h \
   include/linux/sunrpc/msg_prot.h \
   include/linux/fcntl.h \
-  /home/matus/i5700/FrankenKernel/kernel/arch/arm/include/asm/fcntl.h \
+  /home/matus/i5700/QBANIN_kernel/QBANIN_kernel/arch/arm/include/asm/fcntl.h \
   include/asm-generic/fcntl.h \
   include/linux/err.h \
   include/linux/mount.h \
-  /home/matus/i5700/FrankenKernel/kernel/arch/arm/include/asm/pgtable.h \
+  /home/matus/i5700/QBANIN_kernel/QBANIN_kernel/arch/arm/include/asm/pgtable.h \
   include/asm-generic/4level-fixup.h \
-  /home/matus/i5700/FrankenKernel/kernel/arch/arm/include/asm/proc-fns.h \
+  /home/matus/i5700/QBANIN_kernel/QBANIN_kernel/arch/arm/include/asm/proc-fns.h \
     $(wildcard include/config/cpu/32.h) \
     $(wildcard include/config/cpu/arm7tdmi.h) \
     $(wildcard include/config/cpu/arm720t.h) \
@@ -508,15 +507,15 @@ deps_/home/matus/i5700/FrankenKernel/kmodules2/wlan/src/bcmsdio/sys/wlgpio.o := 
     $(wildcard include/config/cpu/feroceon.h) \
     $(wildcard include/config/cpu/v6.h) \
     $(wildcard include/config/cpu/v7.h) \
-  /home/matus/i5700/FrankenKernel/kernel/arch/arm/include/asm/cpu-single.h \
+  /home/matus/i5700/QBANIN_kernel/QBANIN_kernel/arch/arm/include/asm/cpu-single.h \
   arch/arm/plat-s3c/include/mach/vmalloc.h \
-  /home/matus/i5700/FrankenKernel/kernel/arch/arm/include/asm/pgtable-hwdef.h \
+  /home/matus/i5700/QBANIN_kernel/QBANIN_kernel/arch/arm/include/asm/pgtable-hwdef.h \
   include/asm-generic/pgtable.h \
   include/linux/i2c/pmic.h \
     $(wildcard include/config/pmic/max8906.h) \
     $(wildcard include/config/pmic/max8698.h) \
   include/linux/i2c/max8698.h \
 
-/home/matus/i5700/FrankenKernel/kmodules2/wlan/src/bcmsdio/sys/wlgpio.o: $(deps_/home/matus/i5700/FrankenKernel/kmodules2/wlan/src/bcmsdio/sys/wlgpio.o)
+/home/matus/i5700/kmodules2/wlan/src/bcmsdio/sys/wlgpio.o: $(deps_/home/matus/i5700/kmodules2/wlan/src/bcmsdio/sys/wlgpio.o)
 
-$(deps_/home/matus/i5700/FrankenKernel/kmodules2/wlan/src/bcmsdio/sys/wlgpio.o):
+$(deps_/home/matus/i5700/kmodules2/wlan/src/bcmsdio/sys/wlgpio.o):
